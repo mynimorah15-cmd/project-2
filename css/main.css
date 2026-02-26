@@ -1,8 +1,68 @@
 /* Place CSS styles here */
 head{
+}
+body {
+    background-color:rgb(229, 172, 197);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+    font-family: GB Garamond, serif;
 
+
+h1{ 
+    color: rgb(162, 7, 33);
+    font-weight: bold;
+}
+h2{ 
+    padding: 8px;
+    border-radius: 10px;
+    background:rgb(229, 172, 197) ;
+    color: black; 
+}
+img{
+    flex-direction: center;
+    width: 250px;
+    margin: 20px;
+    border: 20px solid rgb(162, 7, 33);
+    padding: 8px;
+}
+.menu {
+ display: none; /* Hide the menu by default */
+}
+.hamburger {
+  display: none; /* Hide the hamburger button by default */
+}
+@media (max-width: 750px) { .menu {
+    display: block; /* Show the menu on smaller screens */
+  }
+  .hamburger {
+    display: block; /* Show the hamburger button on smaller screens */
+} }
+
+.container-box
+
+ img{
+    flex-direction: center;
+    width: 250px;
+    margin: 20px;
+    border: 20px solid rgb(162, 7, 33);
+    padding: 8px;
+}
+.menu {
+ display: none; /* Hide the menu by default */
+}
+.hamburger {
+  display: none; /* Hide the hamburger button by default */
+}
+@media (max-width: 750px) { .menu {
+    display: block; /* Show the menu on smaller screens */
+  }
+  .hamburger {
+    display: block; /* Show the hamburger button on smaller screens */
+} }
 }
 
-body{
-    
-}
+submit-button{
+padding: 8vw;
+border-radius: 10px;
+background:rgb(229, 172, 197) ;
+color: black;
