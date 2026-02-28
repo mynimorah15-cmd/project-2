@@ -26,16 +26,23 @@
   <header> 
     <h1>Goated Artists!</h1>
     <nav>
-      <ul>
-       <li><a href="file:///Users/namynimorah/Documents/GitHub/project-2/index.html">Home</a></li> 
-       <li><a href="">Contact</a></li>
-      </ul>
+      <a href="./index.html">Home</a>
+      <a href="#form">Talk Yo Shi</a>
     </nav>
 </header>
 
-<div class="Goat-section">
-  <img src="./img/goattm.jpeg" alt="">
-    <a href="https://www.youtube.com/watch?v=-4QWtflqqoU&list=RD-4QWtflqqoU&start_radio=1" target="_blank">THEE Goat</a>
+<div class="hero">
+  <div class="hero-content">
+    <h1>Music and Culture</h1>
+    <p>Add your opinions!</p> 
+  </div> 
+</div>
+
+<div class="goat-section">
+    <a href="https://www.youtube.com/watch?v=-4QWtflqqoU&list=RD-4QWtflqqoU&start_radio=1" target="_blank">
+      <img src="./img/jacksonsgif.gif" alt="">
+      </a>
+    <p>The Goat of all goats</p>
 </div>
 
 <div class="artist-section">
@@ -84,16 +91,21 @@
     </ol>
   </div>
 
-    <form action= "thank-you.html">
-      <label for="company"></label>
-      <label id="company" type="text"></label>
+    <form id="form" action= "./thank-you.html">
+      
+      <p>
+        <label for="name">Name</label>
+        <input type="text" required> 
+      </p>
+      
+      <p>
+      <label for="comments">Comments:</label><br>
+      <textarea id="comments" name="comments" rows="5" cols="40"
+      placeholder="Enter your comments here"></textarea>  
+      </p>
+    
 
-      <label for="name">Name</label>
-      <input type="text">
-       
-      <label for="number">Number</label>
-      <input type="number">
-      <input type="submit" class="submit-button">
+      <input type="submit">
 
 </body>
 
